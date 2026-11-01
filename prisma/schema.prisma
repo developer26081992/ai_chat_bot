@@ -1,0 +1,43 @@
+generator client {
+  provider = "prisma-client-js"
+}
+datasource db {
+  provider = "postgresql"
+  url = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+model Document {
+  id String @id @default(uuid())
+  userId String
+  name String
+  content String @db.Text
+  createdAt DateTime @default(now())
+  chunks DocumentChunk[]
+  @@index([userId, createdAt])
+}
+model DocumentChunk {
+  id String @id @default(uuid())
+  documentId String
+  document Document @relation(fields: [documentId], references: [id], onDelete: Cascade)
+  content String @db.Text
+  embedding Unsupported("vector(1536)")
+  chunkIndex Int
+  @@unique([documentId, chunkIndex])
+}
+model Conversation {
+  id String @id @default(uuid())
+  userId String
+  title String
+  createdAt DateTime @default(now())
+  messages Message[]
+  @@index([userId, createdAt])
+}
+model Message {
+  id String @id @default(uuid())
+  conversationId String
+  conversation Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+  role String
+  content String @db.Text
+  createdAt DateTime @default(now())
+  @@index([conversationId, createdAt])
+}
