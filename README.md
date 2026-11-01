@@ -7,7 +7,7 @@ Next.js 15 App Router, React, Tailwind, Clerk, Prisma, Neon PostgreSQL with pgve
 **Public GitHub repository:** [developer26081992/ai_chat_bot](https://github.com/developer26081992/ai_chat_bot)
 
 <!-- LIVE_URL_START -->
-**Live URL:** Pending a successful Vercel deployment. No live URL has been verified yet.
+**Live URL:** [Open the chatbot](<https://ai-chat-bot-one-bay.vercel.app>)
 <!-- LIVE_URL_END -->
 
 `deployment.json` records the deployment URL and verification time when available.
@@ -273,18 +273,24 @@ Dependencies are sourced from the public npm registry and pinned by package-lock
 Neon pooled and direct connections were verified, both migrations were applied,
 and pgvector plus the document tables were checked successfully. Clerk API
 authentication succeeded. TypeScript checks and the production Next.js compilation
-passed. The full build script hit a Windows file lock while regenerating Prisma's
-engine with a development process running; compilation was verified separately
-with the already generated client. Stop the development server before running
-`npm run build` locally. Vercel's fresh install runs the complete build script.
+passed. The full production build also passed on Vercel: environment validation,
+Prisma generation, `prisma migrate deploy` (no pending migrations), and Next.js
+compilation. The public production homepage was verified at the Live URL above.
+On Windows, stop the development server before running `npm run build` if
+Prisma reports a locked engine DLL.
 
 The public visibility of the GitHub repository was verified. Successful real
 upload, answer streaming, generated titles and history after a real answer remain
 unverified: the configured OpenAI account returned HTTP 429,
 `credit_balance_exhausted` / `insufficient_quota`, on an embedding request.
 A valid API key alone does not establish available credits. No mock output is
-presented as a working OpenAI integration. A Vercel live URL and a physical
-flash-drive copy are pending until explicitly verified.
+presented as a working OpenAI integration. The production homepage is live; authenticated document-to-answer testing and
+a physical flash-drive copy are still pending.
+
+The dependency audit reports unresolved advisories in the retained AI SDK 4,
+Prisma 6 and transitive packages. The recommended automated fixes require major
+upgrades, including moving away from the required Next.js 15 stack. This
+submission must not be described as having a clean security audit.
 
 Automated tests cover chunking, chat streams, six-word title limits, saved
 citations, interrupted replies, fragmented streams, cancellation, environment

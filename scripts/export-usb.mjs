@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const directories = ['app', 'components', 'lib', 'prisma', 'samples', 'scripts', 'tests', 'docs'];
 const rootFiles = [
-  '.env.example', '.gitignore', '.nvmrc', '.vercelignore', 'README.md', 'START-HERE.txt',
+  '.env.example', '.gitattributes', '.gitignore', '.nvmrc', '.vercelignore', 'README.md', 'START-HERE.txt',
   'package.json', 'package-lock.json', 'middleware.ts', 'next-env.d.ts', 'next.config.ts', 'postcss.config.cjs',
   'tailwind.config.cjs', 'tsconfig.json', 'vercel.json', 'deployment.json',
 ];
