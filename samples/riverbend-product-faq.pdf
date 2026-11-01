@@ -1,0 +1,205 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 3125 >>
+stream
+BT
+/F1 16 Tf
+50 790 Td
+(Riverbend Product FAQ) Tj
+/F1 9 Tf
+0 -20 Td
+(Page 1 of 2 - fictional test material) Tj
+/F1 10 Tf
+15 TL
+0 -30 Td
+(FICTIONAL TEST DOCUMENT. Riverbend Notes is an invented document research product. All) Tj
+T*
+(names, prices, and policies below are synthetic examples for testing retrieval and) Tj
+T*
+(source citations. No service is being sold by this sample document.) Tj
+T*
+() Tj
+T*
+(1. Product overview. Riverbend Notes helps a small team ask questions about selected) Tj
+T*
+(documents. A team member uploads readable PDF or text documents, chooses the sources for) Tj
+T*
+(a conversation, and asks a question in ordinary language. Replies can include numbered) Tj
+T*
+(citations. Opening a citation reveals the original document passage used for that) Tj
+T*
+(answer.) Tj
+T*
+() Tj
+T*
+(The demonstration emphasizes traceability. A useful answer should explain the relevant) Tj
+T*
+(fact and show which passage supports it. A citation is a pointer to evidence, not a) Tj
+T*
+(guarantee that the model has interpreted the evidence correctly. Reviewers should read) Tj
+T*
+(the expanded passage when checking an important claim or resolving an apparent) Tj
+T*
+(contradiction.) Tj
+T*
+() Tj
+T*
+(2. Sample plans. The Starter plan costs R120 per month and includes 20 documents. The) Tj
+T*
+(Team plan costs R350 per month and includes 100 documents. These amounts are fictional) Tj
+T*
+(South African rand prices and are quoted per month. The sample plans do not describe) Tj
+T*
+(annual billing, discounts, taxes, or an enterprise contract.) Tj
+T*
+() Tj
+T*
+(A team should choose a plan according to the number of documents it needs to keep) Tj
+T*
+(available, not the length of a single assistant response. If someone asks for a feature) Tj
+T*
+(or price that is not listed here, the correct research response is to explain that this) Tj
+T*
+(FAQ does not supply that fact. It should not extrapolate a larger plan from the two) Tj
+T*
+(examples.) Tj
+T*
+() Tj
+T*
+(3. Refund policy. A first-time customer may request a refund within 14 calendar days of) Tj
+T*
+(the first payment. The request is submitted to the product support desk with the payment) Tj
+T*
+(reference. The support desk acknowledges the request within three working days. An) Tj
+T*
+(acknowledgement is separate from the final review outcome.) Tj
+T*
+() Tj
+T*
+(The fictional refund rule is limited to a first payment. This FAQ does not state a) Tj
+T*
+(refund entitlement for later renewals or explain how a bank handles a reversed) Tj
+T*
+(transaction. A reviewer testing source grounding should ask a follow-up about one of) Tj
+T*
+(these missing details and check that the assistant does not invent an additional) Tj
+T*
+(condition or promise.) Tj
+T*
+() Tj
+T*
+(4. Document support. Accepted file extensions are .pdf and .txt. A PDF must contain) Tj
+T*
+(readable text; a scanned image without a text layer needs OCR before upload. The upload) Tj
+T*
+(limit is 4 MiB per file. An uploaded file may contain no more than 200 PDF pages, and) Tj
+T*
+(extracted text may contain no more than 500,000 characters or 250 chunks in this) Tj
+T*
+(demonstration.) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 2034 >>
+stream
+BT
+/F1 16 Tf
+50 790 Td
+(Riverbend Product FAQ) Tj
+/F1 9 Tf
+0 -20 Td
+(Page 2 of 2 - fictional test material) Tj
+/F1 10 Tf
+15 TL
+0 -30 Td
+() Tj
+T*
+(Text is split into approximately 500-token chunks with 50-token overlap. The overlap) Tj
+T*
+(gives nearby chunks some shared context when a useful sentence falls close to a) Tj
+T*
+(boundary. Embeddings use 1536 dimensions. These processing details describe this) Tj
+T*
+(demonstration and should not be generalized to every retrieval system or every embedding) Tj
+T*
+(model.) Tj
+T*
+() Tj
+T*
+(5. Conversations and history. Select between one and ten documents before asking the) Tj
+T*
+(first question. That selection stays fixed for the conversation. To use a different) Tj
+T*
+(collection, start a new conversation. The conversation list shows a short generated) Tj
+T*
+(title and a timestamp. A generated title contains at most six words and can fall back to) Tj
+T*
+(words from the first question if the title service is unavailable.) Tj
+T*
+() Tj
+T*
+(Reopening a saved conversation loads its messages and cited source text. Each reply has) Tj
+T*
+(its own source numbering, so source 1 in one reply is not necessarily source 1 in a) Tj
+T*
+(later reply. Saving source text with the message lets a reviewer inspect the evidence) Tj
+T*
+(that was present when that response was written.) Tj
+T*
+() Tj
+T*
+(6. Limits of this source. This FAQ does not list office opening hours, meeting room) Tj
+T*
+(sizes, or the equipment loan form. Those facts appear in the Riverbend Operations) Tj
+T*
+(Handbook. Use both documents for a comparison question and only the FAQ when checking) Tj
+T*
+(that handbook-only information is not introduced into the answer.) Tj
+T*
+() Tj
+T*
+(Testing questions: Compare the two plan prices and document allowances. How long is the) Tj
+T*
+(refund window? Does the FAQ promise annual billing? Expected facts: Starter R120 and 20) Tj
+T*
+(documents; Team R350 and 100 documents; refund request within 14 calendar days; annual) Tj
+T*
+(billing is not specified.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000191 00000 n 
+0000000317 00000 n 
+0000003493 00000 n 
+0000003619 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+5704
+%%EOF

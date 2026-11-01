@@ -29,8 +29,13 @@ model Conversation {
   userId String
   title String
   createdAt DateTime @default(now())
+  updatedAt DateTime @default(now()) @updatedAt
+  documentIds String[] @default([])
+  generationId String?
+  generationStartedAt DateTime?
   messages Message[]
   @@index([userId, createdAt])
+  @@index([userId, updatedAt])
 }
 model Message {
   id String @id @default(uuid())
@@ -39,5 +44,9 @@ model Message {
   role String
   content String @db.Text
   createdAt DateTime @default(now())
+  sequence Int
+  sources Json @default("[]")
+  status String @default("complete")
+  @@unique([conversationId, sequence])
   @@index([conversationId, createdAt])
 }

@@ -1,0 +1,25 @@
+Riverbend Operations Handbook
+
+FICTIONAL TEST DOCUMENT. Riverbend Research Cooperative is an invented organization. These policies are sample facts for testing document retrieval, not instructions for a real organization.
+
+1. Opening hours and support. The Riverbend office opens Monday through Friday from 08:30 to 16:30 South African Standard Time. The office is closed on weekends. The help desk uses extension 204. Routine requests receive an initial response within two working days. An initial response acknowledges a ticket and is not a promise that the issue has already been resolved.
+
+The daily opening checklist is assigned to the duty coordinator. Before the first meeting, the coordinator checks the visitor book, unlocks the shared project room, and confirms that the document scanner has paper. At closing, the coordinator saves the handover note and locks the project room. The handover note records unfinished tasks without including passwords or private customer information.
+
+2. Equipment loans. A laptop can be borrowed for seven calendar days. The borrower completes form RB-204 and obtains approval from the operations coordinator before collecting the laptop. The form records the asset number, collection date, expected return date, and the borrower name. Equipment must be checked in with the coordinator; leaving a device on an empty desk does not complete a return.
+
+An extension can be requested before the existing return date. The coordinator checks whether another person has reserved the laptop before granting an extension. Damage or loss must be reported to the help desk on the same working day that it is noticed. A report should describe the asset number and what happened without guessing about the cause.
+
+3. Document handling. Every uploaded research document should have a descriptive filename and a short owner note. The owner note explains the document purpose and the team responsible for keeping it current. A revised document is uploaded as a new version for this demonstration. Existing assistant citations retain the text of the passage used when the response was saved.
+
+The cooperative distinguishes original evidence from summaries. Meeting notes can summarize a discussion, but the original approved policy remains the source of a policy claim. If a response cites an unrelated passage, the reviewer should ask a narrower question or select the correct document rather than assume that a numbered citation proves the answer is accurate.
+
+4. Meeting rooms. The Cedar room holds eight people and the Acacia room holds twelve people. A room reservation can last up to two hours. Reservations use the shared schedule and should include the meeting purpose, start time, and organizer. A cancellation should be recorded as soon as the organizer knows that the room is no longer needed.
+
+Video calls should use headphones when other meetings are taking place nearby. The last person leaving a room returns the chairs, removes printed drafts, and clears the whiteboard unless the next team has explicitly asked to preserve it. These room procedures apply to internal meetings and are separate from the equipment loan rules.
+
+5. Training and review. New coordinators complete a supervised opening shift and a supervised closing shift before taking an independent duty. The supervisor reviews the checklist with the trainee and records any unclear steps. The handbook is reviewed once per quarter. Proposed changes are collected in a review log and do not become policy until the coordinator publishes an approved revision.
+
+6. Limits of this source. This handbook does not specify customer subscription prices, product refund rules, or payment methods. Those facts are in the separate Riverbend Product FAQ. A question about a topic missing from the selected document should receive an explicit statement that the available passages do not provide that information.
+
+Testing questions: What are the office opening hours? Which form is needed to borrow a laptop? How long is a laptop loan? Compare the Cedar and Acacia room capacities. Expected source facts: 08:30 to 16:30 SAST; form RB-204; seven calendar days; eight and twelve people respectively.
